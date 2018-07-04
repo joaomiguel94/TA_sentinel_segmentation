@@ -82,6 +82,6 @@ Um dos grande problemas de detetar as estradas com as imagens de satélite obtid
 
 Por isso, os resultados finais não são perfeitos, já que para além da baixa qualidade, as deteções de bordas usando o algoritmo de *canny* resultam de imagens com algum ruído.
 
-Aliado a isso, não existem conhecimentos para efetuar um processamento complexo que retorne melhores resultados. Também não foi possível comparar os resultados com o **QGIS** e *OpenStreetMape*. Contudo, é possível verificar que em parte, as estradas foram detetadas.
+Aliado a isso, não existem conhecimentos para efetuar um processamento complexo que retorne melhores resultados. Também não foi possível comparar os resultados com o **QGIS** e **OpenStreetMap**. Contudo, é possível verificar que em parte, as estradas foram detetadas.
 
 Assim sendo, parte dos objetivos do projeto, foram implementados. 
