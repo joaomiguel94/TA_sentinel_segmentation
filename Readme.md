@@ -27,15 +27,15 @@ Dado que as imagens são bastante grandes, decidiu-se processar apenas uma parte
 Utilizou-se o **QGIS** para ler as imagens *.jp2* descarregadas do projeto *Copernicus* e escolheu-se a imagem **B04**, pois já se econtra em tons de cinza, o ideal para trabalhar em processamento de imagem.
 
 <p>
-  <img src="img/qgis.png" width="400" />
+  <img src="img/qgis.png" width="500" />
 </p>
 
 Dada a baixa qualidade das imagens, primeiro procedeu-se a um melhoramento das arestas da imagem usando uma matriz 5x5.
 Abaixo está a comparação entre essas duas imagens.
 
 <p>
-  <img src="img/qgis.png" width="400" />
-  <img src="img/qgis_melhorada.png" width="400" />
+  <img src="img/qgis.png" width="500" />
+  <img src="img/qgis_melhorada.png" width="500" />
 </p>
 
 O programa *segmentation.py* lê a imagem e recebe três argumentos que determinam se a imagem processada deve sofrer uma equalização do histograma, se deve sofrer uma *gamma correction* ou se devem ser detetados os pontos de intensidade mais elevada e elminar esses mesmos pontos (as três opções podem ser escolhidas em simultâneo).
@@ -43,8 +43,8 @@ O programa *segmentation.py* lê a imagem e recebe três argumentos que determin
 Abaixo segue-se um exemplo de uma imagem com o algoritmo de *Canny* aplicado.
 
 <p>
-  <img src="img/qgis_melhorada.png" width="400" />
-  <img src="img/qgiscanny.png" width="400" />
+  <img src="img/qgis_melhorada.png" width="500" />
+  <img src="img/qgiscanny.png" width="500" />
 </p>
 
 De seguida, foi feita uma *gamma correction* para tentar melhorar o contraste da imagem, fazendo sobressair as estradas.
@@ -52,8 +52,8 @@ De seguida, foi feita uma *gamma correction* para tentar melhorar o contraste da
 Depois de fazer a *gamma correction*, a imagem ficou da seguinte forma:
 
 <p>
-  <img src="img/qgis_melhorada.png" width="400" />
-  <img src="img/gamma.png" width="400" />
+  <img src="img/qgis_melhorada.png" width="500" />
+  <img src="img/gamma.png" width="500" />
 </p>
 
 Abaixo fica a comparação entre os dois *Canny* (Imagem original e com contraste melhorado).
@@ -61,8 +61,8 @@ Abaixo fica a comparação entre os dois *Canny* (Imagem original e com contrast
 É possível verificar que efetuar um *gamma correction*, reduziu o ruído na imagem.
 
 <p>
-  <img src="img/qgiscanny.png" width="400" />
-  <img src="img/gamma_canny.png" width="400" />
+  <img src="img/qgiscanny.png" width="500" />
+  <img src="img/gamma_canny.png" width="500" />
 </p>
 
 Para melhorar os resultados, diminuiram-se as frequências gerais da imagem, com um filtro passa-baixo (gaussiano) com uma matriz 5x5. Esse filtro diminui a variação das intensidades e assim, há uma melhor deteção da bordas.
@@ -70,9 +70,9 @@ Para melhorar os resultados, diminuiram-se as frequências gerais da imagem, com
 As imagens seguintes comparam a imagem com *gamma correction*, o *canny dessa* e o filtro gaussiano da imagem *gamma* com *canny*
 
 <p>
-  <img src="img/gamma.png" width="320" /> <br>
-  <img src="img/gamma_canny.png" width="320" /> <br>
-  <img src="img/gaussian.png" width="320" />
+  <img src="img/gamma.png" width="500" /> <br>
+  <img src="img/gamma_canny.png" width="500" /> <br>
+  <img src="img/gaussian.png" width="500" />
 </p>
 
 
