@@ -70,9 +70,9 @@ Para melhorar os resultados, diminuiram-se as frequências gerais da imagem, com
 As imagens seguintes comparam a imagem com *gamma correction*, o *canny dessa* e o filtro gaussiano da imagem *gamma* com *canny*
 
 <p>
-  <img src="img/gamma.png" width="250" />
-  <img src="img/gamma_canny.png" width="250" />
-  <img src="img/gaussian.png" width="250" />
+  <img src="img/gamma.png" width="320" /> <br>
+  <img src="img/gamma_canny.png" width="320" /> <br>
+  <img src="img/gaussian.png" width="320" />
 </p>
 
 
